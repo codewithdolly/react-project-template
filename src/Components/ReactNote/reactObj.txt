@@ -1,6 +1,8 @@
 ReactInterview Questions for Freshers
-
+const Qna=[
+    
 1.  What is React?
+4.  List some of the major advantages of React.
 2.  What are the advantages of using React?
 3.  What are the limitations of React?
 4.  What is useState() in React?
@@ -42,7 +44,9 @@ classes?
 39.  How to re-render the view when the browser is resized?
 40.  How to pass data between sibling components using React router?
 41.  How to perform automatic redirect aer login?
-
-const answere=[
-1. 
+3.  What are the features of React?
+5. What are the limitations of React?
+8. Why can’t browsers read JSX?
+9. How different is React’s ES6 syntax when compared to ES5?
+10. How is React different from Angular? 
 ]
