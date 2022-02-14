@@ -1,10 +1,12 @@
 
 import './App.scss';
+import ReactNote from './Components/ReactNote/ReactNote';
 
 function App() {
   return (
     <div className="App">
-      HI
+      <ReactNote />
+
     </div>
   );
 }
