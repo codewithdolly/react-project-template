@@ -6,7 +6,10 @@ const ReactNote = () => {
     <>
     <div className='reactNote'>
         <h1>React Notes</h1>
-        <h2>Q1: </h2>
+        <div>
+        <h2>Q1: What is the difference between Element and Component?</h2>
+        <p><b>ans: </b></p>
+        </div>
         
         </div>
     </>
