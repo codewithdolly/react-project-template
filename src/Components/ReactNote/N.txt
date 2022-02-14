@@ -16,6 +16,18 @@ FROM https://dev.to/aviyel/300-react-interview-questions-4dag
 15. What are portals in React?
 16. What are stateless components?
 17. What will happen if you use props in the initial state?
+18. What is JSX?
+19. Can web browsers read JSX directly? 
+20. Why use React instead of other frameworks, like Angular?
+21. What is the difference between the ES6 and ES5 standards?
+22. How do you create an event in React?
+23. What are synthetic events in React?
+24. Explain how lists work in React and Why is there a need for using keys in Lists?
+25. What are forms in React?
+26. What is an arrow function and how is it used in React?
+
+
+
 
 //REACT ROUTER
 18. What is the purpose of push() and replace() methods of history?
