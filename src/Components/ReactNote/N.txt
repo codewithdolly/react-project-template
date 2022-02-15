@@ -25,6 +25,7 @@ FROM https://dev.to/aviyel/300-react-interview-questions-4dag
 24. Explain how lists work in React and Why is there a need for using keys in Lists?
 25. What are forms in React?
 26. What is an arrow function and how is it used in React?
+27. How do you pass props between components?
 
 
 
