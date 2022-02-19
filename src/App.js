@@ -1,14 +1,9 @@
+import React from "react";
 
-import './App.scss';
-import ReactNote from './Components/ReactNote/ReactNote';
-
-function App() {
-  return (
-    <div className="App">
-      <ReactNote />
-
-    </div>
-  );
+const App=()=>{
+  return(
+    <>Hi</>
+  )
 }
 
 export default App;
