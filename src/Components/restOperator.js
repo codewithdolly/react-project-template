@@ -11,7 +11,7 @@ console.log((a, b, (c = value())));
 let [x, y, z] = [30, 40, 50];
 
 function TotalValue(...args) {
-  return [x, ...args];
+  return [...args];
 }
 
-console.log(TotalValue(a, b));
+console.log(TotalValue(x, z));

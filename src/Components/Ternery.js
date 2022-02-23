@@ -13,11 +13,15 @@ let canChange = locked != 1 ? true : false;
 
 console.log(canChange);
 
-//3
-let authenticated = true;
+3
+let authenticated = [null];
 let nextURL = authenticated
   ? ( "/admin")
   : ("/403");
 
 
-  console.log(nextURL);
+  console.log(typeof(thirdItem), typeof(authenticated));
+
+
+
+  
