@@ -3,7 +3,6 @@ import {useLocation } from 'react-router-dom'
 
 const Dashboard = () => {
 const location= useLocation();
-const location2= useLocation();
 
   return (
     <div>
