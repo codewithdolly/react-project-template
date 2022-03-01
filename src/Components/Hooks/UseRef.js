@@ -15,7 +15,7 @@ const UseRef = () => {
   return (
     <>
       <form action="" onSubmit={SubmitForm}>
-        <label htmlFor="Fill your Name">My Name is </label>
+        <label>My Name is </label>
         <input
           type="text"
           placeholder="full name"
@@ -24,8 +24,10 @@ const UseRef = () => {
         />
 
         <Button>Submit</Button>
+
       </form>
-      <h2>{value ? `your lucky name ${yourName.current.value}` : ""}</h2>
+
+      <h2>{value ? `How are you ${yourName.current.value}` : ""}</h2>
     </>
   );
 };
