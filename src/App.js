@@ -1,12 +1,13 @@
 import React from "react";
-import UseRef from "./Components/Hooks/UseRef";
-import MainRouter from "./Components/Router/MainRouter";
+import ClassComp from "./Components/Interview/ClassComp";
+import Interview2 from "./Components/Interview/Interview2";
+
 
 
 const App=()=>{
   return(
     <>
-     <UseRef />
+   <Interview2 />
     </>
   )
 }
