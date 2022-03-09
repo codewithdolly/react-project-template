@@ -1,5 +1,4 @@
 import React from "react";
-import ClassComp from "./Components/Interview/ClassComp";
 import Interview2 from "./Components/Interview/Interview2";
 
 

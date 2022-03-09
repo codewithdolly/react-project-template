@@ -19,6 +19,7 @@
 
 // console.log(reverseName);
 
+
 function sum(...numbers) {
   return numbers.reduce((accumulator, current) => {
       return accumulator += current
@@ -26,12 +27,21 @@ function sum(...numbers) {
 
 };
 
-let totalNum=sum(1,2,3,4,5);debugger
+let totalNum=sum(1,2,3,4,5);
 
 console.log(totalNum);
 
 
+console.log("start");
 
 
+function hello(){
+  console.log("hello");
+};
 
+setTimeout(() => {
+  hello()
+}, 10000);
+
+console.log("Ewnd!!");
 
