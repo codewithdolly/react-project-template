@@ -28,7 +28,12 @@ else if (dayOfWeek=== "Friday"){
 
 
 
-//convert Date
-// var dayName =['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-// var day = dayName[new Date().getDay()];
-// console.log(day)
+//if else-if and else
+let fruit= "Mango"
+if(fruit== "Mango"){
+  console.log("Mango is Sweet.")
+}else if (fruit== "Orange"){
+    console.log("sour")
+}else{
+    console.log("I love fruits")
+}
