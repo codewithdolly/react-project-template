@@ -24,7 +24,7 @@ else if (dayOfWeek=== "Thursday"){
 }
 else if (dayOfWeek=== "Friday"){
     console.log(dayOfWeek,"Office day");
-}
+}   
 
 
 

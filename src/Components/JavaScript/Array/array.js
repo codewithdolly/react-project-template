@@ -56,3 +56,25 @@ let ItemsPrice= items.map((item)=>{
 })
 
 console.log(ItemsPrice);
+
+
+let arry=[1,2,3];
+
+let findArray= Array.isArray(arry);
+
+console.log(findArray);
+console.log(arry.length);
+
+let numbers = [10, , 20, 30];
+console.log(numbers, numbers.length);
+
+let thefruits=[];
+
+thefruits.length = 5;
+
+console.log(thefruits);
+
+numbers.length = 2
+console.log(numbers);
+
+
