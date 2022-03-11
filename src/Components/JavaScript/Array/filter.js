@@ -18,3 +18,7 @@ return city.name
 })
 
 console.log(cityName);
+
+let sortName= cities.sort((name)=>{
+    
+})
