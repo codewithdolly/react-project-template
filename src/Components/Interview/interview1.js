@@ -5,6 +5,7 @@ let  myDetails={
   add:"BanjaraHills"
 }
 
+
 Object.keys(myDetails).forEach((key, value)=>{
   console.log(key,":" +myDetails[key]);
 });

@@ -23,7 +23,7 @@ const UseRef = () => {
           ref={yourName}
         />
 
-        <Button>Submit</Button>
+        <Button color="error">Submit</Button>
 
       </form>
 
