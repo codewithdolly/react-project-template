@@ -18,11 +18,21 @@ while (input !== "quit" && input !== "q") {
       console.log(`${newTodo} added in todos list!`);
   }
   else if(input=== 'delete'){
-    const deleteTodo= prompt('what new you want to delete?')
-    todos.pop(deleteTodo);
-    console.log(`${deleteTodo}  deleted.`);
+    const index= parseInt(prompt('what new you want to delete?'));
+    if(!Number.isNaN(index)){
+let deleted= todos.splice(index, 1);
+console.log(`Okay, Deleted ${deleted[0]}`);
+    }else {
+      console.log('uknown index');
+    }
+    
+   
 }
   input = prompt("what you want to do?");
 }
 
 console.log("Okay, You have Quit the game!");
+
+
+//to add new list - new + "list Name"
+//to delete list - delete + "List Number 1/2"
