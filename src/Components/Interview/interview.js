@@ -15,3 +15,6 @@ for (let i = 0; i < 3; i++) {
   setTimeout(() => console.log(i), 1);
 }// it will print after previous loop. and it will print 0,1,2
 
+
+
+
