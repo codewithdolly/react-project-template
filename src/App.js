@@ -1,10 +1,11 @@
 import React from 'react'
+import MainRouter from "./Components/Router/MainRouter"
 
 const App = () => {
   return (
     <div>
     
-    HI
+    <MainRouter />
     </div>
   )
 }

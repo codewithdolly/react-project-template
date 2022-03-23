@@ -2,7 +2,9 @@ import React from 'react'
 
 const Android = () => {
   return (
-    <div>Android</div>
+    <div>Android
+    <h1>Hello there</h1>
+    </div>
   )
 }
 
