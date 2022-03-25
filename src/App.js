@@ -1,22 +1,8 @@
-import { valueToPercent } from '@mui/base'
-import React, { useState } from 'react'
-import Interview from './Components/Interview/interview'
-
+import React from 'react'
 
 const App = () => {
-  const [value, setValue]= useState(0);
-
-
-useEffect(() => {
-  setValue()
-},[])
-
-
   return (
-    <>
-    <h1>Hello there</h1>
-    <Interview fisrtName="Dolly" lastName="Singh" />
-    </>
+    <div>App</div>
   )
 }
 
