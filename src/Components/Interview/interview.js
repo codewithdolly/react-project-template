@@ -1,20 +1,22 @@
-obj1 = { a: 10 };
-const obj2 = obj1;
-obj2.a = 20;
-console.log(obj1);
-console.log(obj2);
-let obj1; //obj one has not inishilized yet so it will show err "cannot inishilize before declaration."
+let arr = [2, 3, 5, 6, 8, 5, 3, 2, 4, 6, 7, 9, 6, 4, 2, 1];
+
+let sortNum= arr.sort();
 
 
+console.log(sortNum);
 
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 1);
-} // it will print 3 times 3.
+let findNumCount=[]
 
-for (let i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 1);
-}// it will print after previous loop. and it will print 0,1,2
+for (let i=0; i<sortNum.length; i++){
+function findNum() {
+    if(sortNum[i]=== sortNum[i]++){
+        findNumCount.push[i];
+    }
+    else{
+        console.log(sortNum[i]);
+    }
+}
+}
 
-
-
+console.log(findNumCount);
 

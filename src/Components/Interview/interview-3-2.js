@@ -2,22 +2,22 @@
 let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 let Output = [1, 8, 3, 6, 5, 4, 7, 2];
 
-// let evenNumberReversed = arr.filter((x) => x % 2 === 0).reverse(); //shorted evenNums
+let evenNumberReversed = arr.filter((x) => x % 2 === 0).reverse(); //shorted evenNums
 
-// evenArrayIndex = 0;
+evenArrayIndex = 0;
 
-// function EvenNums() {
-//   for (let index = 0; index < arr.length; index++) {
-//     if (arr[index] % 2 === 0) {
-//       arr[index] = evenNumberReversed[evenArrayIndex];
-//       evenArrayIndex++; //increment the index for next even number
-//     }
-//   }
+function EvenNums() {
+  for (let index = 0; index < arr.length; index++) {
+    if (arr[index] % 2 === 0) {
+      arr[index] = evenNumberReversed[evenArrayIndex];
+      evenArrayIndex++; //increment the index for next even number
+    }
+  }
 
-//   console.log(arr);
-// }
+  console.log(arr);
+}
 
-// EvenNums();
+EvenNums();
 
 let indexes = arr.map((e,i) => e%2==0 ? i : -1).filter(e=> e>=0);
 console.log(indexes);

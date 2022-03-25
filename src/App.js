@@ -1,30 +1,22 @@
-import React, {useState} from 'react'
+import { valueToPercent } from '@mui/base'
+import React, { useState } from 'react'
+import Interview from './Components/Interview/interview'
 
-const obj=[
-  {
-    name:"Dolly",
-    roll:4321
-  },
-]
 
 const App = () => {
-  const [name, setName]= useState("radha");
+  const [value, setValue]= useState(0);
 
 
+useEffect(() => {
+  setValue()
+},[])
 
-const updateObj= (e)=>{
-  const newValue= e.target.value
-  setName("I am Riti.")
-  setName(newValue)
-
-}
 
   return (
-    <div>
-    <h2>{name}</h2>
-    {/* <button onChange={updateObj}>click me</button> */}
-    <input type="text" placeholder= "type here" onChange={updateObj} />
-    </div>
+    <>
+    <h1>Hello there</h1>
+    <Interview fisrtName="Dolly" lastName="Singh" />
+    </>
   )
 }
 
