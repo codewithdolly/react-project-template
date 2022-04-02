@@ -18,5 +18,5 @@ for (let i=0; i<sortNum.length; i++){
         console.log(sortNum[i]);
     }
    
-
+}
 
